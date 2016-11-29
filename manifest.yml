@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kami456
+  host: kami456
+  disk_quota: 1024M
+  services:
+  - kami456-cloudantNoSQLDB
